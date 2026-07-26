@@ -2,6 +2,8 @@
 
 A production-grade AI voice assistant with speech-to-text, conversational memory, and text-to-speech — powered by OpenAI Whisper, GPT-4o-mini, and TTS.
 
+**Live Demo:** [https://buyeredge.co](https://buyeredge.co)
+
 ---
 
 ## How It Works
@@ -22,10 +24,10 @@ A production-grade AI voice assistant with speech-to-text, conversational memory
 | LLM | OpenAI gpt-4o-mini |
 | Text to Speech | OpenAI TTS (alloy voice) |
 | Agent Framework | LangGraph |
-| Memory | PostgresSaver (PostgreSQL) — persists conversation across sessions via thread_id |
+| Memory | PostgresSaver (PostgreSQL) — persists conversation via thread_id |
 | Backend API | FastAPI |
 | Frontend UI | Streamlit |
-| Deployment | Docker Compose |
+| Deployment | Docker Compose on Google Cloud with Nginx + SSL |
 
 ---
 
