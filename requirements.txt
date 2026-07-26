@@ -11,4 +11,3 @@ openai
 streamlit-audiorecorder
 langchain-core
 pydub
-audiorecorder
