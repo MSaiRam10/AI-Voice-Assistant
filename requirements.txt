@@ -1,0 +1,14 @@
+langgraph
+langchain-openai
+streamlit
+fastapi
+uvicorn
+python-dotenv
+requests
+psycopg[binary]
+langgraph-checkpoint-postgres
+openai
+streamlit-audiorecorder
+langchain-core
+pydub
+audiorecorder
